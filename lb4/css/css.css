@@ -1,0 +1,1872 @@
+* {margin:0;padding:0}
+@font-face {
+    font-family: Segoe MDL2 Assets;
+}
+
+.Navigation1{
+    display: none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.MMM{
+    display: none;
+    visibility: hidden;
+}
+.main{
+
+    width:1440px;
+    height: 3355px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+
+
+}
+.HeroSelection{
+    position: absolute;
+    width: 1440px;
+
+    height: 768px;
+    left: 0px;
+    top: 0px;
+
+}
+.Backb{
+    height: 768px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.Back{
+    height: 768px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-size: 100% 768px;
+    background-image: url(../img/bbb.jpg);
+    background-repeat: no-repeat;
+}
+.bb{
+    position: absolute;
+    width: 1440px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background: rgba(198, 108, 73, 0.3);
+}
+.text1{
+    text-decoration: none;
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 165px;
+    top: 506px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.text2{
+    position: absolute;
+    width: 333px;
+    height: 29px;
+    left: 165px;
+    top: 371px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.text3{
+    position: absolute;
+    width: 694px;
+    height: 78px;
+    left: 165px;
+    top: 220px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.Logop{
+    text-decoration: none;
+    position: absolute;
+    width: 116px;
+    height: 29px;
+    left: 165px;
+    top: 93px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.Homep{
+    text-decoration: none;
+    position: absolute;
+    width: 52px;
+    height: 22px;
+    left: 745px;
+    top: 93px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.Aboutp{
+    text-decoration: none;
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    left: 856px;
+    top: 93px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.Skillsp{
+    text-decoration: none;
+    position: absolute;
+    width: 44px;
+    height: 22px;
+    left: 969px;
+    top: 93px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.Portfoliop{
+    text-decoration: none;
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 1073px;
+    top: 93px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.Contactp{
+    text-decoration: none;
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    left: 1206px;
+    top: 93px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+#Menu{
+    position: absolute;
+    list-style-type: none;
+}
+
+.Texts{
+
+}
+.AboutH{
+    position: absolute;
+    width: 73px;
+    height: 29px;
+    left: 165px;
+    top: 61px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Abouttext{
+    position: absolute;
+    width: 1107px;
+    height: 231px;
+    left: 166px;
+    top: 166px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: justify;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.About{
+    position: absolute;
+    width: 1440px;
+    height: 544px;
+    left: 0px;
+    top: 768px;
+    background: #FFFFFF;
+}
+.Skillimg{
+    position: absolute;
+    width: 350px;
+    height: 340px;
+    left: 165px;
+    top: 208px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/24351.jpg);
+}
+.Skills{
+    background: #FFFAF2;
+    position: absolute;
+    width: 1440px;
+    height: 693px;
+    left: 0px;
+    top: 1312px;
+}
+.Skilltext{
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 165px;
+    top: 93px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock1{
+    position: absolute;
+    width: 316px;
+    height: 25px;
+    left: 829px;
+    top: 208px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Prof{
+    position: absolute;
+    width: 58px;
+    height: 25px;
+    left: 640px;
+    top: 208px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock2{
+    position: absolute;
+    width: 111px;
+    height: 25px;
+    left: 640px;
+    top: 298px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.Skilltextblock3{
+
+    position: absolute;
+    width: 46px;
+    height: 25px;
+    left: 640px;
+    top: 343px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock4{
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    left: 640px;
+    top: 388px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock5{
+    position: absolute;
+    width: 46px;
+    height: 25px;
+    left: 640px;
+    top: 433px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock6{
+    position: absolute;
+    width: 123px;
+    height: 25px;
+    left: 640px;
+    top: 478px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock7{
+    position: absolute;
+    width: 46px;
+    height: 25px;
+    left: 640px;
+    top: 523px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.Skilltextblock8{
+    position: absolute;
+    width: 174px;
+    height: 25px;
+    left: 829px;
+    top: 343px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock9{
+    position: absolute;
+    width: 550px;
+    height: 25px;
+    left: 829px;
+    top: 433px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Skilltextblock10{
+    position: absolute;
+    width: 502px;
+    height: 25px;
+    left: 829px;
+    top: 523px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.SkillBar1{
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 298px;
+
+    background: #F5D6AB;
+}
+.SkillBar2{
+    position: absolute;
+    width: 381px;
+    height: 24px;
+    left: 829px;
+    top: 298px;
+
+    background: #C66C49;
+}
+.SkillBar3{
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 388px;
+
+    background: #F5D6AB;
+}
+.SkillBar4{
+    position: absolute;
+    width: 351px;
+    height: 24px;
+    left: 829px;
+    top: 388px;
+
+    background: #C66C49;
+}
+.SkillBar5{
+    position: absolute;
+    width: 446px;
+    height: 24px;
+    left: 829px;
+    top: 479px;
+
+    background: #F5D6AB;
+}
+.SkillBar6{
+    position: absolute;
+    width: 286px;
+    height: 24px;
+    left: 829px;
+    top: 478px;
+
+    background: #C66C49;
+}
+.Portfolio{
+    position: absolute;
+    width: 1440px;
+    height: 822px;
+    left: 2px;
+    top: 2005px;
+}
+.PortTEXT{
+    position: absolute;
+    width: 349px;
+    height: 137px;
+    left: 168px;
+    top: 281px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: justify;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.PortH{
+    position: absolute;
+    width: 141.21px;
+    height: 25px;
+    left: 168px;
+    top: 208px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.PortH1{
+    position: absolute;
+    width: 102px;
+    height: 29px;
+    left: 167px;
+    top: 93px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.img1{
+    position: absolute;
+    width: 350px;
+    height: 144px;
+    left: 642px;
+    top: 274px;
+    background-size: 268px 144px;
+    background-repeat: no-repeat;
+    background-image: url("../img/bio.jpg");
+}
+.img2{
+    position: absolute;
+    width: 349px;
+    height: 233px;
+    left: 643px;
+    top: 444px;
+    background-size: auto 233px;
+    background-repeat: no-repeat;
+    background-image: url("../img/portfolio.png");
+
+}
+.img3{
+    position: absolute;
+    width: 255px;
+    height: 241px;
+    left: 1022px;
+    top: 274px;
+    background-size:  255px auto;
+    background-repeat: no-repeat;
+    background-image: url("../img/dz3.png");
+ }
+.img4{
+    margin-top: 15px;
+    position: absolute;
+    width: 255px;
+    height: 144px;
+    left: 1022px;
+    top: 533px;
+    background-size: 255px auto;
+    background-repeat: no-repeat;
+    background-image: url("../img/ban.png");
+}
+.Arrow1{
+    text-decoration: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 191px;
+    top: 653px;
+
+    font-family: Segoe MDL2 Assets, serif;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Arrow2 {
+    text-decoration: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 229px;
+    top: 653px;
+
+    font-family: Segoe MDL2 Assets, serif;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.Contact{
+
+    position: absolute;
+    width: 1440px;
+
+    height: 528px;
+    left: 2px;
+    top: 2827px;
+    background: #FFFAF2;
+}
+.ContactH{
+    text-decoration: none;
+    position: absolute;
+    width: 143px;
+    height: 29px;
+    left: 167px;
+    top: 93px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.ContactBehance{
+    text-decoration: none;
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 167px;
+    top: 209px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.ContactCodePen{
+    text-decoration: none;
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 167px;
+    top: 245px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.ContactFacebook{
+    text-decoration: none;
+    position: absolute;
+    width: 82px;
+    height: 22px;
+    left: 547px;
+    top: 209px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.ContactGitHub{
+    text-decoration: none;
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 167px;
+    top: 281px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.ContactDribbble{
+    text-decoration: none;
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 167px;
+    top: 173px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.ContactMedium{
+    text-decoration: none;
+    position: absolute;
+    width: 69px;
+    height: 22px;
+    left: 167px;
+    top: 317px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+.ContactLinkedIn{
+    text-decoration: none;
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 547px;
+    top: 173px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.ContactInstagram{
+    text-decoration: none;
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: 547px;
+    top: 245px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.ContactTwitter{
+    text-decoration: none;
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 547px;
+    top: 281px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.ContactMail{
+    text-decoration: none;
+    position: absolute;
+    width: 168px;
+    height: 22px;
+    left: 927px;
+    top: 173px;
+
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+
+ }
+.ContactNUMBER{
+    text-decoration: none;
+    position: absolute;
+    width: 136px;
+    height: 18px;
+    left: 927px;
+    top: 209px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    /* Gray 1 */
+
+    color: #333333;
+
+}
+.ContactTOP{
+    text-decoration: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1238px;
+    top: 434px;
+    font-family: Segoe MDL2 Assets;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+
+    @media screen and (max-width:450px) {
+        html{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html, body {height: 100%; margin: 0;}
+        #page {display: table; width: 100%;}
+        html>body #page {height: 100%;}
+        .section {display: table-row;}
+        html> body .section-content {height: 100%;}
+        .main{
+            width: 375px;
+            height: 1948px;
+            max-width: 375px;
+            min-width: 375px;
+            overflow: hidden;
+
+        }
+        .About{
+            position: absolute;
+            width: 375px;
+            height: 335px;
+            left: 0px;
+            top: 275px;
+
+        }
+        .Skills{
+            position: absolute;
+            width: 375px;
+            height: 617px;
+            left: 0px;
+            top: 568px;
+
+        }
+        .Portfolio{
+            position: absolute;
+            width: 375px;
+            height: 404px;
+            left: 0px;
+            top: 1185px;
+        }
+        .Contact{
+            position: absolute;
+            width: 375px;
+            height: 360px;
+            left: -1px;
+            top: 1588px;
+        }
+        .ContactTOP{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 318px;
+            top: 278px;
+
+            font-family: Segoe MDL2 Assets;
+            font-size: 24px;
+            line-height: 24px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .PortH1{
+            position: absolute;
+            width: 116px;
+            height: 29px;
+            left: 129px;
+            top: 36px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+        }
+        .text3{
+
+            position: absolute;
+            width: 217px;
+            height: 24px;
+            left: 50px;
+            top: 115px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #FFFFFF;
+        }
+        .text2{
+
+            position: absolute;
+            width: 181px;
+            height: 16px;
+            left: 50px;
+            top: 152px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+        .text1{
+         position: absolute;
+            width: 79px;
+            height: 16px;
+            left: 50px;
+            top: 209px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            /* identical to box height */
+
+            text-decoration-line: underline;
+
+            color: #FFFFFF;
+
+        }
+        .HeroSelection{
+            height: 275px;
+            width: 373px;
+            left: 0px;
+            top: 0px;
+
+        }
+        .Back{
+            position: absolute;
+            width: 373px;
+            height: 275px;
+            left: 0px;
+            top: 0px;
+            background: url(../img/bbb.jpg), 100% 100% no-repeat;
+            background-size: cover;
+        }
+
+        .bb{
+            width: 373px;
+            height: 275px;
+            left: 0px;
+            top: 0px;
+            background: rgba(198, 108, 73, 0.4);
+        }
+        .Logop{
+            position: absolute;
+            width: 116px;
+            height: 29px;
+            left: 129px;
+            top: 36px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+        .Menu{
+            list-style-type: none;
+
+        }
+        .AboutH{
+            position: absolute;
+            width: 72px;
+            height: 29px;
+            left: 150px;
+            top: 25px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Abouttext{
+            position: absolute;
+            width: 312px;
+            height: 212px;
+            left: 34px;
+            top: 73px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: justify;
+            color: #333333;
+
+        }
+        .Skilltext{
+            position: absolute;
+            width: 62px;
+            height: 29px;
+            left: 156px;
+            top: 25px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skillimg{
+            position: absolute;
+            width: 224px;
+            height: 218px;
+            left: 71px;
+            top: 79px;
+            background: url(../img/24351.jpg), #C66C49;
+            background-size: cover;
+        }
+        .Prof{
+            position: absolute;
+            width: 39px;
+            height: 25px;
+            left: 34px;
+            top: 323px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock1{
+            position: absolute;
+            width: 211px;
+            height: 25px;
+            left: 132px;
+            top: 323px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock2{
+            position: absolute;
+            width: 74px;
+            height: 25px;
+            left: 34px;
+            top: 534px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock3{
+            position: absolute;
+            width: 31px;
+            height: 25px;
+            left: 34px;
+            top: 413px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock4{
+            position: absolute;
+            width: 55px;
+            height: 25px;
+            left: 34px;
+            top: 454px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock5{
+            position: absolute;
+            width: 31px;
+            height: 25px;
+            left: 34px;
+            top: 491px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock6{
+            position: absolute;
+            width: 82px;
+            height: 25px;
+            left: 34px;
+            top: 379px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock7{
+            position: absolute;
+            width: 31px;
+            height: 25px;
+            left: 34px;
+            top: 567px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock8{
+            position: absolute;
+            width: 116px;
+            height: 25px;
+            left: 132px;
+            top: 567px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .Skilltextblock9{
+            position: absolute;
+            width: 185px;
+            height: 25px;
+            left: 132px;
+            top: 491px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+
+        }
+        .Skilltextblock10{
+            position: absolute;
+            width: 182px;
+            height: 25px;
+            left: 132px;
+            top: 413px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 25px;
+            /* identical to box height, or 208% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .SkillBar1{
+
+            position: absolute;
+            width: 211px;
+            height: 18px;
+            left: 132px;
+            top: 383px;
+
+            background: #F5D6AB;
+        }
+        .SkillBar6{
+            position: absolute;
+            width: 135.3px;
+            height: 18px;
+            left: 132px;
+            top: 383px;
+
+
+            background: #C66C49;
+
+        }
+        .SkillBar5{
+
+            position: absolute;
+            width: 179.39px;
+            height: 18px;
+            left: 132px;
+            top: 538px;
+
+            background: #C66C49;
+        }
+        .SkillBar3{
+            position: absolute;
+            width: 210px;
+            height: 18px;
+            left: 132px;
+            top: 460px;
+
+            background: #F5D6AB;
+        }
+        .SkillBar4{
+            position: absolute;
+            width: 165.27px;
+            height: 18px;
+            left: 132px;
+            top: 460px;
+
+            background: #C66C49;
+        }
+
+        .SkillBar2{
+            position: absolute;
+            width: 210px;
+            height: 18px;
+            left: 132px;
+            top: 538px;
+
+            background: #F5D6AB;
+        }
+        .PortH1{
+            position: absolute;
+            width: 101px;
+            height: 29px;
+            left: 137px;
+            top: 25px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .PortH{
+            position: absolute;
+            width: 93.6px;
+            height: 25px;
+            left: 141px;
+            top: 73px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 25px;
+            /* identical to box height, or 179% */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .PortTEXT{
+            position: absolute;
+            width: 308px;
+            height: 71px;
+            left: 34px;
+            top: 103px;
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            /* Gray 1 */
+
+            color: #333333;
+
+        }
+        .img1{
+            position: absolute;
+            width: 169.76px;
+            height: 69.85px;
+            left: 34px;
+            top: 184px;
+            background-size: auto 69.85px;
+            background-repeat: no-repeat;
+            background-image: url("../img/bio.jpg");
+        }
+        .img2{
+            position: absolute;
+            height: 113.01px;
+            width: 169.28px;
+            left: 34.49px;
+            top: 266.44px;
+            background-size: auto 113.01px;
+            background-repeat: no-repeat;
+            background-image: url("../img/portfolio.png");
+        }
+        .img3{
+            position: absolute;
+            width: 123.69px;
+            height: 116.89px;
+            left: 218.31px;
+            top: 184px;
+            background-size: 123px auto;
+            background-repeat: no-repeat;
+            background-image: url("../img/dz3.png");
+        }
+        .img4{
+            margin-top: 0px;
+            width: 123.69px;
+            height: 69.85px;
+            left: 218.31px;
+            top: 310.36px;
+            background-size: auto 69.85px;
+            background-repeat: no-repeat;
+            background-image: url("../img/ban.png");
+        }
+        .ContactH{
+            position: absolute;
+            width: 142px;
+            height: 29px;
+            left: 119px;
+            top: 26px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+
+        }
+        .ContactDribbble{
+            position: absolute;
+            width: 56px;
+            height: 17px;
+            left: 41px;
+            top: 80px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactBehance{
+            position: absolute;
+            width: 58px;
+            height: 17px;
+            left: 41px;
+            top: 116px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactCodePen {
+
+            position: absolute;
+            width: 61px;
+            height: 17px;
+            left: 41px;
+            top: 152px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactGitHub{
+            position: absolute;
+            width: 46px;
+            height: 17px;
+            left: 41px;
+            top: 188px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactMedium{
+            position: absolute;
+            width: 54px;
+            height: 17px;
+            left: 41px;
+            top: 224px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactLinkedIn{
+            position: absolute;
+            width: 57px;
+            height: 17px;
+            left: 201px;
+            top: 80px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+
+        }
+        .ContactFacebook{
+            position: absolute;
+            width: 64px;
+            height: 17px;
+            left: 201px;
+            top: 116px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactInstagram{
+            position: absolute;
+            width: 67px;
+            height: 17px;
+            left: 201px;
+            top: 152px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactTwitter{
+            position: absolute;
+            width: 47px;
+            height: 17px;
+            left: 201px;
+            top: 188px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactMail{
+            position: absolute;
+            width: 131px;
+            height: 17px;
+            left: 41px;
+            top: 271px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+        .ContactNUMBER{
+            position: absolute;
+            width: 109px;
+            height: 15px;
+            left: 41px;
+            top: 295px;
+
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+
+        .Navigation{
+            display: block;
+
+
+        }
+        .Navigation1{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 34px;
+            top: 39px;
+            font-family: Segoe MDL2 Assets;
+            font-size: 24px;
+            line-height: 24px;
+            /* identical to box height */
+
+            color: #FFFFFF;
+            display: block;
+            font-family: Segoe MDL2 Assets;
+        }
+        .Menu2{
+            list-style-type: none;
+        }
+
+        .HeroSelection:hover .MMM {
+            visibility: visible;
+            display: block;
+
+        }
+        .HeroSelection:hover .Navigation {
+            visibility: hidden;
+
+        }
+        .HeroSelection:hover   .Texts {
+            visibility: hidden;
+
+        }
+
+
+        .MMM{
+            margin-top: 15%;
+            list-style-type: none;
+            text-align: center;
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .Contactp1, .Portfoliop1, .Skillsp1, .Aboutp1, .Homep1{
+            text-decoration: none;
+            color: white;
+        }
+
+
+
+
+    }
+.black{
+    position: absolute;
+    height: 275px;
+    width: 373px;
+    z-index: 1000;
+}
+a:hover {
+    color: yellowgreen;
+}
+
+

@@ -1,0 +1,297 @@
+.scelet {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.logo {
+    font-family: "Myriad Pro", serif;
+    font-size: 50px;
+    color: black;
+}
+body, html{
+    background-color: #b4b7ba;
+}
+.mmm{
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image:  url('../img/ban.png');
+    background-size: 100vw 100vh;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.a-logo{
+    display: block;
+    text-decoration: none;
+}
+
+.mn-elmnt {
+    background-color: #e3e3e3;
+    display: inline-block;
+    width: 25%;
+    transition: all 0.1ms ease;
+    padding: 20px 0;
+}
+
+.mn-elmnt:hover {
+    display: inline-block;
+    background-color: #5c707b;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/Myriad.otf") format("opentype");
+}
+
+#blue-logo {
+    color: steelblue;
+}
+.black {
+    color: black;
+}
+#nav-menu {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 0;
+}
+
+.nav-href {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+}
+
+.nav-href1 {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+}
+
+.bar-href {
+    color: grey;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: "Myriad Pro";
+}
+
+#side-bar {
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+    width: 345px;
+    float: left;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.side-elmnt {
+    box-sizing: border-box;
+
+    padding: 27px 0 27px 50px;
+    margin: 1px;
+    transition: 0.1s ease-out;
+}
+
+.side-elmnt:hover {
+    box-sizing: content-box;
+    padding: 27px 0 27px 90px;
+    margin: 1px;
+    background-color: aliceblue;
+}
+
+.side-elmnt:hover .bar-href {
+    color: black;
+}
+
+#picture {
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+#picture1 {
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+}
+
+
+.pic {
+    height: 450px;
+    width: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.3s ease-out;
+}
+.pic:hover {
+    height: 675px;
+    width: 900px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    margin: auto;
+}
+
+#pic2 {
+    height: 450px;
+    width: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.1s ease-out;
+}
+#pic2:hover {
+    height: 675px;
+    width: 900px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+#text-blck {
+    clear: both;
+    padding-top: 60px;
+}
+
+.info-1, .info-2 {
+    width: 1060px;
+    margin: auto;
+}
+
+.info-1 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.info-4 {
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-2 {
+    padding-left: 60px;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 1.1;
+    text-align: left;
+}
+.info-3 {
+    margin-left: 700px;
+    font-size: 20px;
+
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#bttm-menu {
+    margin: 0 240px 0 20px;
+    display: inline-block;
+}
+
+.bttm-elmnt {
+    display: inline-block;
+    padding: 10px;
+}
+
+.bttm-href {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    padding: 0 7px 0 7px;
+    transition: all 0.1s ease-out;
+}
+
+#copyright {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+
+}
+
+#footer-menu {
+    cursor: pointer;
+    background-color: #b4b7ba;
+    font-size: 0;
+
+    text-align: center;
+    clear:both;
+
+
+}
+
+.bttm-href:hover {
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    padding: 0 7px 0 7px;
+    color: steelblue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1200px) {
+    #logo{
+
+
+    }
+    #bttm-menu{
+        margin: 0;
+    }
+    .info-1, .info-2 {
+        width: 900px;}
+    .scelet {
+        width: 900px;
+    }
+    .mn-elmnt {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    #nav-menu {
+        width: 400px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 0;
+        left: 40%;
+        margin-left: 27%;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
