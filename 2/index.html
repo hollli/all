@@ -25,6 +25,7 @@
         .contact{padding-left: 250px;}
         .ddd{height: 100px;}
      </style>
+
 </head>
 <body>
 <div class="bg"></div>
@@ -56,39 +57,70 @@
             <dt>Education</dt>
             <dd class="ddd">
                 <h2>Cherkasy State Technological University</h2>
-                <p><strong>Date:</strong> 01.09.2021-2023<br />
+                <p><strong>Date:</strong><input type='date' value="2021-09-01"min="2021-09-01" max="2023-09-01" style="background-color: black;color: white;" ><br />
                    <strong>Degree:</strong> Junior Specialist 121</p>
             </dd>
 
             <dd class="clear"></dd>
 
-            <dt>Skills</dt>
-              <dd class="ddd">
-                <h2>Soft skills</h2>
-                <p>				Communication, Teamwork, Adaptability, Problem-Solving, Creativity.
-				</p>
-                <h2>Hard skills</h2>
-                <p>				Word, Excel, Access, WebStorm(HTML,CSS), IntelliJ IDEA(Java), Windows.
-				</p>
+            <dt id="Skills">Skills</dt>
+              <dd class="ddd" >
+                  <script>
 
+                  </script>
+                  <h2 >Soft skills</h2>
+                      <p>Communication</p>
+                      <p>Teamwork</p>
+                      <p>Adaptability</p>
+                      <p>Problem-Solving</p>
+                      <p>Creativity</p>
+
+                  <h2 style ="    margin-left: 250px;    bottom: 50%;    position: fixed;">Hard skills</h2>
+                  <canvas style="background-color: white;    margin-left: 150px;    bottom: 20%;    position: fixed;" width="280" height="260" id="canvas"></canvas>
+                  <script>
+
+                      let canvas = document.getElementById('canvas');
+
+                      let ctx = canvas.getContext('2d');
+
+                      ctx.fillStyle = "black";
+                      ctx.lineWidth = 2.0;
+                      ctx.beginPath();
+                      ctx.moveTo(30, 10);
+                      ctx.lineTo(30, 230);
+                      ctx.lineTo(400, 230);
+                      ctx.stroke();
+
+                      ctx.fillStyle = "black";
+                      for (let i = 0; i < 6; i++) {
+                          ctx.fillText((5 - i) *20 + "", 4, i * 40 + 30);
+                          ctx.beginPath();
+                          ctx.moveTo(25, i * 40 + 30);
+                          ctx.lineTo(30, i * 40 + 30);
+                          ctx.stroke();
+                      }
+
+                      let labels = ["Java", "JS", "HTML", "CSS"];
+                      for (let i = 0; i < 4; i++) {
+                          ctx.fillText(labels[i], 50 + i * 60, 250);
+                      }
+
+                      let data = [24, 19,33 , 35];
+                      //data its ur (data*2)+20
+                      ctx.fillStyle = "green";
+                      for (let i = 0; i < data.length; i++) {
+                          let dp = data[i];
+                          ctx.fillRect(40 + i*60, 230-dp*5 , 50, (dp*5));
+                      }
+                  </script>
             </dd>
 
             <dd class="clear"></dd>
 
-            <dt>Experience</dt>
-            <dd class="ddd">
-                <h2>unemployed <span></span></h2>
-                <ul type="square">
-                    <li>none</li>
-                    <li>none</li>
-                    <li>none</li>
-                </ul> 
-            </dd>
-
             <dd class="clear"></dd>
 
-            <dt>Hobbies</dt>
-              <dd class="ddd">
+            <dt id="Hobbies">Hobbies</dt>
+              <dd style="height: 20px" class="ddd">
 			Runing, reading, studying, play games, search of decent content and other.
 			</dd>
 
@@ -101,8 +133,8 @@
 					<li><a class="mylink" href="https://polytechnic.ck.ua/">Cherkasy Polytechnical College</a></li>
                     <li><a class="mylink" href="https://www.youtube.com/watch?v=cZ5_ACF5w4E&ab_channel=Benedixhion-Topic">My school</a></li>
 				</ul>
-			</dd>
 
+              </dd>
             <dd class="clear"></dd>
 
         </dl>
