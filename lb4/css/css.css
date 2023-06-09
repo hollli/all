@@ -60,6 +60,8 @@ html, body {
     top: 0px;
     background: rgba(198, 108, 73, 0.3);
 }
+
+
 .text1{
     text-decoration: none;
     position: absolute;
@@ -243,7 +245,7 @@ html, body {
     height: 231px;
     left: 166px;
     top: 166px;
-    font-family: Libre Franklin;
+    font-family: "A.C.M.E";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -305,7 +307,7 @@ html, body {
     width: 316px;
     height: 25px;
     left: 829px;
-    top: 208px;
+    top: 255px;
 
     font-family: Libre Franklin;
     font-style: normal;
@@ -324,7 +326,7 @@ html, body {
     width: 58px;
     height: 25px;
     left: 640px;
-    top: 208px;
+    top: 255px;
 
     font-family: Libre Franklin;
     font-style: normal;
@@ -580,7 +582,7 @@ html, body {
     left: 168px;
     top: 281px;
 
-    font-family: Libre Franklin;
+    font-family: "A.C.M.E";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -675,7 +677,7 @@ html, body {
     left: 191px;
     top: 653px;
 
-    font-family: Segoe MDL2 Assets, serif;
+    font-family: Segoe MDL2 Assets;
     font-size: 24px;
     line-height: 24px;
     /* identical to box height */
@@ -693,7 +695,7 @@ html, body {
     left: 229px;
     top: 653px;
 
-    font-family: Segoe MDL2 Assets, serif;
+    font-family: Segoe MDL2 Assets;
     font-size: 24px;
     line-height: 24px;
     /* identical to box height */
@@ -1172,7 +1174,7 @@ html, body {
             height: 212px;
             left: 34px;
             top: 73px;
-            font-family: Libre Franklin;
+            font-family: "A.C.M.E";
             font-style: normal;
             font-weight: normal;
             font-size: 12px;
